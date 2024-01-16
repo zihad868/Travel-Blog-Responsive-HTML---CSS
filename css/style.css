@@ -116,4 +116,20 @@
   font-weight: 400;
   line-height: 1.6rem;
 }
+
+
+
+.banner-form input{
+  width: 11rem;
+  height: 3.25rem;
+}
+
+
+.banner-form .input-style{
+  color: rgba(19, 19, 24, 0.50);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 /* banner section end */
