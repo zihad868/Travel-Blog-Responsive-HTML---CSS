@@ -138,11 +138,11 @@
   margin: 10px;
 }
 
-.banner-form .form-when{
+.banner-form .form-when {
   position: relative;
 }
 
-.banner-form .form-icon-when{
+.banner-form .form-icon-when {
   font-size: 44px;
   width: 1.6rem;
   height: 1.6rem;
@@ -152,35 +152,43 @@
   color: red;
 }
 
-.banner-form .form-icon-when{
+.banner-form .form-icon-when {
   color: #131318;
   width: 2rem;
   height: 2rem;
   position: absolute;
-  top: -.10rem;
+  top: -0.1rem;
   left: 9rem;
   background-color: white;
 }
-.banner-form .form-icon-select{
+.banner-form .form-icon-select {
   color: #131318;
 
   position: absolute;
-  top: -.10rem;
+  top: -0.1rem;
   left: 9rem;
   background-color: white;
 }
 
-
-.banner-form .select{
+.banner-form .select {
   position: relative;
 }
 
-.banner-form .select .form-icon-when2{
+.banner-form .select .form-icon-when2 {
   width: 2rem;
   height: 2rem;
   position: absolute;
-  top: -.15rem;
+  top: -0.15rem;
   left: 9rem;
 }
+.banner-form .submit-form .search-icon {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 14rem;
+  left: 56rem;
+  color: white;
+}
+
 
 /* banner section end */
