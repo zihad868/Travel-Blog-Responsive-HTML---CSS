@@ -395,3 +395,27 @@
 
 /* 
 Choose Section End */
+
+
+/* Hero Start */
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.hero .horo-logo{
+  display: flex;
+  align-items: center;
+}
+
+.social-icon{
+  margin: 10px;
+}
+
+/* Hero End */
