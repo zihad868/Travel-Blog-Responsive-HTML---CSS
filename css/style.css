@@ -292,7 +292,6 @@
 }
 
 .grid-container{
-  border: 1px solid rebeccapurple;
   min-height: 200px;
 }
 
@@ -348,3 +347,47 @@
 }
 /* Destination End*/
 
+
+
+/* Choose Section Start  */
+
+
+.choose{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.choose-container {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.package{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.package .package-container{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.package-container .package-img{
+  width: 4rem;
+  height: 4rem;
+}
+
+/* 
+Choose Section End */

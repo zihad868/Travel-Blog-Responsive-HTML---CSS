@@ -26,6 +26,10 @@
         width: 100%;
         height: 100%;
       }
+
+      .package .package-container{
+        flex-direction: column;
+      }
       
 }
 
