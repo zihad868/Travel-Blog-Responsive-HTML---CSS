@@ -86,6 +86,7 @@
 }
 
 .banner {
+  display: flex;
   border-radius: 16px;
   background: linear-gradient(
     180deg,
@@ -95,16 +96,24 @@
   background-size: cover;
   height: 30rem;
   margin-top: 1.5rem;
-  display: flex; 
   justify-content: center;
   align-items: center;
 }
 
-.banner-container{
-    border: 2px solid red;
-    text-align: center;
+.banner-container {
+  text-align: center;
 }
 
+.banner-container .banner-title {
+  color: #FFF;
+  font-size: 4rem;
+  font-weight: 800;
+}
 
+.banner-container .banner-description {
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
 /* banner section end */
-
