@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    .menu-bar{
+        display: none;
+    }
+
+    .menu-icon{
+        display: flex;
+        margin: 20px 5px 0px 200px;
+    }
+}
+

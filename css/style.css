@@ -72,4 +72,13 @@
     font-weight: 400; 
 }
 
+.menu-icon{
+    display: none;
+}
+
+.menu-icon i{
+    font-size: 20px;
+    color: #131318;;
+}
+
 /* Menu Bar  End*/
