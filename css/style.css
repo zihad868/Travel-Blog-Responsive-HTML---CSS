@@ -83,6 +83,7 @@
 .banner-section {
   width: 90%;
   margin: 0 auto;
+  height: 100%;
 }
 
 .banner-section {
@@ -94,8 +95,12 @@
     ),
     url("../Images/rectangle-2.png");
   background-size: cover;
-  height: 30rem;
-  margin-top: 1.5rem;
+  height: 37rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner-container {
@@ -113,28 +118,29 @@
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6rem;
+  margin-top: 1rem;
 }
 
 .banner-form {
   text-align: center;
   width: 90%;
-  border: 2px solid black;
   margin: 0 auto;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .banner-form input {
-  width: 174px;
-  height: 52px;
+  width: 10.8rem;
+  height: 3.25rem;
   border-radius: 0.5rem;
 }
 
 .banner-form .input-style {
   color: rgba(19, 19, 24, 0.5);
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
   margin: 10px;
 }
 
@@ -143,7 +149,7 @@
 }
 
 .banner-form .form-icon-when {
-  font-size: 44px;
+  font-size: 2.75rem;
   width: 1.6rem;
   height: 1.6rem;
   position: absolute;
@@ -170,6 +176,12 @@
   background-color: white;
 }
 
+.banner-form{
+  margin-top: 2rem;
+}
+
+
+
 .banner-form .select {
   position: relative;
 }
@@ -185,10 +197,9 @@
   width: 2rem;
   height: 2rem;
   position: absolute;
-  top: 14rem;
+  top: 29.50rem;
   left: 56rem;
   color: white;
 }
-
 
 /* banner section end */
