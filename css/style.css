@@ -485,6 +485,7 @@ Choose Section End */
   justify-content: center;
   color: white;
   position: absolute;
+  border: 1px solid blue;
 }
 
 /* New Letter End */
