@@ -32,6 +32,11 @@
   line-height: 26px; /* 162.5% */
 }
 
+.common-red-button {
+  border-radius: 0.5rem;
+  background: #ff5400;
+}
+
 /* Nav Section  */
 
 .nav-section {
@@ -247,7 +252,7 @@
   justify-content: center;
 }
 
-.tour-img img{
+.tour-img img {
   width: 100%;
   height: 100%;
 }
@@ -274,7 +279,6 @@
 
 /* Tour Section end */
 
-
 /* Destination Start */
 .destination-section {
   display: flex;
@@ -291,68 +295,61 @@
   margin-bottom: 1.2rem;
 }
 
-.grid-container{
+.grid-container {
   min-height: 200px;
 }
 
-
-
-.grid-container{
+.grid-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
 }
 
-.grid-container img{
+.grid-container img {
   width: 100%;
   height: 100%;
 }
 
-
-.grid-1{
-  grid-column: 1/span 6;
-  grid-row: 1/span 1;
+.grid-1 {
+  grid-column: 1 / span 6;
+  grid-row: 1 / span 1;
 }
 
-.grid-2{
-  grid-column: 7/span 6;
-  grid-row: 1/span 1;
+.grid-2 {
+  grid-column: 7 / span 6;
+  grid-row: 1 / span 1;
 }
 
-.grid-3{
-  grid-column: 1/span 4;
-  grid-row: 2/span 1;
+.grid-3 {
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 1;
 }
 
-.grid-4{
-  grid-column: 5/span 5;
-  grid-row: 2/span 1;
+.grid-4 {
+  grid-column: 5 / span 5;
+  grid-row: 2 / span 1;
 }
 
-.grid-5{
-  grid-column: 10/span 3;
-  grid-row: 2/span 1;
+.grid-5 {
+  grid-column: 10 / span 3;
+  grid-row: 2 / span 1;
 }
 
-
-.grid-6{
-  grid-column: 1/span 5;
-  grid-row: 3/span 1;
+.grid-6 {
+  grid-column: 1 / span 5;
+  grid-row: 3 / span 1;
 }
 
-.grid-7{
-  grid-column: 6/span 7;
-  grid-row: 3/span 1;
+.grid-7 {
+  grid-column: 6 / span 7;
+  grid-row: 3 / span 1;
 }
 /* Destination End*/
 
-
-
 /* Choose Section Start  */
 
-
-.choose{
+.choose {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -367,7 +364,7 @@
   margin-bottom: 1.2rem;
 }
 
-.package{
+.package {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -376,30 +373,28 @@
   margin: 0 auto;
 }
 
-
-.package .package-container{
+.package .package-container {
   margin-top: 2rem;
   display: flex;
   justify-content: space-between;
   padding: 2rem;
 }
 
-.package-container .package-img{
+.package-container .package-img {
   width: 4rem;
   height: 4rem;
 }
 
-.package-3{
+.package-3 {
   padding: 1rem;
 }
 
 /* 
 Choose Section End */
 
-
 /* Hero Start */
 
-.hero{
+.hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -409,13 +404,91 @@ Choose Section End */
   margin-top: 4rem;
 }
 
-.hero .horo-logo{
+.hero .horo-logo {
   display: flex;
   align-items: center;
 }
 
-.social-icon{
+.social-icon {
   margin: 10px;
 }
 
 /* Hero End */
+
+/* New Letter Start */
+
+.news-letter {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid rgb(0, 60, 255);
+  min-height: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.news-container {
+  width: 46%;
+  border: 1px solid red;
+  min-height: 9rem;
+  margin-top: 5rem;
+  padding-left: 3rem;
+  min-height: 5rem;
+  height: 400px;
+}
+
+.news-img-container {
+  width: 51%;
+  border: 1px solid rgb(0, 30, 255);
+  min-height: 9rem;
+  margin-top: 5rem;
+  height: 400px;
+  position: relative;
+}
+
+.news-container .news-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+  border-radius: 8px;
+}
+
+.news-container .news-form input {
+  width: 24.5rem;
+  height: 3.2rem;
+  padding: 1rem 15.68rem 1rem 0.9rem;
+  margin-bottom: 10px;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.news-container .news-button {
+  width: 24.5rem;
+  height: 3.2rem;
+  padding: 1rem auto;
+  margin-bottom: 10px;
+  background: #ff5400;
+  border: none;
+}
+
+
+.news-letter .img-content img {
+  width: 100%;
+}
+
+.news-img-container .news-tag {
+  margin-top: -9.1rem;
+  margin-left: 19.4rem;
+  border-radius: 1rem;
+  background: #ff5400;
+  width: 19rem;
+  height: 6rem;
+  transform: rotate(-19.628deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 1px solid blue;
+  position: absolute;
+}
+
+/* New Letter End */

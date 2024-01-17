@@ -31,5 +31,24 @@
         flex-direction: column;
       }
       
+      .news-letter{
+        flex-direction: column;
+      }
+
+      .news-container{
+        width: 90%;
+      }
+
+      .news-img-container {
+        width: 90%;
+      }
+      .news-img-container .news-tag {
+        margin-top: -7.6rem;
+        margin-left: 12rem;
+        border-radius: 1rem;
+        background: #ff5400;
+        width: 16rem;
+        height: 5rem;
+      }
 }
 
