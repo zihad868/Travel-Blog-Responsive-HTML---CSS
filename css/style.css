@@ -431,15 +431,12 @@ Choose Section End */
   margin-top: 5rem;
   padding-left: 3rem;
   min-height: 5rem;
-  height: 400px;
 }
 
 .news-img-container {
   width: 51%;
   min-height: 9rem;
   margin-top: 5rem;
-  height: 400px;
-  position: relative;
 }
 
 .news-container .news-form {
@@ -466,6 +463,9 @@ Choose Section End */
   border: none;
 }
 
+.news-img{
+  position: relative;
+}
 
 .news-letter .img-content img {
   width: 100%;

@@ -39,6 +39,7 @@
         width: 90%;
       }
 
+
       .news-img-container {
         width: 90%;
         display: flex;
@@ -46,12 +47,13 @@
         align-items: center;
       }
       .news-img-container .news-tag {
-        margin-top: -7.6rem;
-        margin-left: 12rem;
+        margin-top: 7.5rem;
+        margin-left: 10rem;
         border-radius: 1rem;
         background: #ff5400;
         width: 16rem;
         height: 5rem;
+        
       }
 }
 
